@@ -12,4 +12,4 @@ fi
 PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # Alias
-alias dots="bash $HOME/Projects/dots/update.sh"
+alias dots="bash $HOME/Projects/dots/dots.sh"

@@ -104,7 +104,7 @@ bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
-bindsym $mod+b workspace back_and_forth
+bindsym $mod+Tab workspace back_and_forth
 # bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
@@ -374,7 +374,7 @@ bar {
   # client.placeholder      #000000 #0c0c0c #ffffff #000000
   # client.background       #2B2C2B
   client.focused          #556064 #EBDBB2 #80FFF9 #FDF6E3
-  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+  client.focused_inactive #2F3D44 #A89984 #1ABC9C #454948
   client.unfocused        #2F3D44 #A89984 #1ABC9C #454948
   client.urgent           #CB4B16 #EBDBB2 #1ABC9C #268BD2
   client.placeholder      #000000 #0c0c0c #ffffff #000000
