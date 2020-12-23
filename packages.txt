@@ -1,4 +1,4 @@
-# Official
+# All
 accountsservice 0.6.55-3
 acpi 1.7-3
 acpid 2.0.32-2
@@ -138,7 +138,7 @@ os-prober 1.77-1
 p7zip 16.02-6
 pacman 5.2.2-3
 palemoon-bin 28.16.0-1
-pamac-gtk 10.0.1-1.0
+pamac-gtk 10.0.2-1
 patch 2.7.6-8
 patchutils 0.4.2-1
 pciutils 3.7.0-1
