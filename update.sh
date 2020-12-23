@@ -6,7 +6,7 @@ cp $HOME/.i3/config $HOME/Projects/dots/.i3/config
 cp $HOME/.dmenurc $HOME/Projects/dots/.dmenurc
 cp $HOME/.Xresources $HOME/Projects/dots/.Xresources
 cp $HOME/.zshrc $HOME/Projects/dots/.zshrc
-echo "# Official" > $HOME/Projects/dots/packages.txt
+echo "# All" > $HOME/Projects/dots/packages.txt
 pacman -Qe >> $HOME/Projects/dots/packages.txt
 echo -e "\n# AUR" >> $HOME/Projects/dots/packages.txt
 pacman -Qm >> $HOME/Projects/dots/packages.txt
