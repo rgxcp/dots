@@ -341,24 +341,16 @@ bar {
 	strip_workspace_numbers yes
 
     colors {
-        # background #222D31
-        # statusline #F9FAF9
-        # separator  #454947
-        background #282828
-        statusline #EBDBB2
-        separator  #EBDBB2
+        background #373b41
+        statusline #c5c8c6
+        separator  #c5c8c6
 
 #                          border  backgr. text
-        # focused_workspace  #F9FAF9 #16a085 #292F34
-        # active_workspace   #595B5B #353836 #FDF6E3
-        # inactive_workspace #595B5B #222D31 #EEE8D5
-        # binding_mode       #16a085 #2C2C2C #F9FAF9
-        # urgent_workspace   #16a085 #FDF6E3 #E5201D
-        focused_workspace  #282828 #EBDBB2 #282828
-        active_workspace   #282828 #EBDBB2 #282828
-        inactive_workspace #EBDBB2 #282828 #EBDBB2
-        binding_mode       #EBDBB2 #282828 #EBDBB2
-        urgent_workspace   #282828 #EBDBB2 #282828
+        focused_workspace  #373b41 #c5c8c6 #373b41
+        active_workspace   #373b41 #c5c8c6 #373b41
+        inactive_workspace #373b41 #373b41 #c5c8c6
+        binding_mode       #373b41 #373b41 #c5c8c6
+        urgent_workspace   #373b41 #c5c8c6 #373b41
     }
 }
 
@@ -373,10 +365,10 @@ bar {
   # client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
   # client.placeholder      #000000 #0c0c0c #ffffff #000000
   # client.background       #2B2C2B
-  client.focused          #556064 #EBDBB2 #80FFF9 #FDF6E3
-  client.focused_inactive #2F3D44 #A89984 #1ABC9C #454948
-  client.unfocused        #2F3D44 #A89984 #1ABC9C #454948
-  client.urgent           #CB4B16 #EBDBB2 #1ABC9C #268BD2
+  client.focused          #556064 #b294bb #80FFF9 #FDF6E3
+  client.focused_inactive #2F3D44 #85678f #1ABC9C #454948
+  client.unfocused        #2F3D44 #85678f #1ABC9C #454948
+  client.urgent           #CB4B16 #b294bb #1ABC9C #268BD2
   client.placeholder      #000000 #0c0c0c #ffffff #000000
   client.background       #2B2C2B
 
