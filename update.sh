@@ -3,6 +3,7 @@ CWD=$HOME/Projects/dots
 
 cp /etc/bluetooth/main.conf $CWD/etc/bluetooth/main.conf
 cp /etc/modprobe.d/nobeep.conf $CWD/etc/modprobe.d/nobeep.conf
+cp $HOME/.config/dunst/dunstrc $CWD/.config/dunst/dunstrc
 cp $HOME/.config/neofetch/config.conf $CWD/.config/neofetch/config.conf
 cp $HOME/.i3/config $CWD/.i3/config
 cp $HOME/.dmenurc $CWD/.dmenurc
