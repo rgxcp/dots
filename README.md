@@ -9,6 +9,7 @@ RICING
 ## Requirements
 1. Arch linux based distribution
 2. i3wm
-3. dmenu
-4. zsh
-5. neofetch
+3. zsh
+4. dmenu
+5. dunst
+6. neofetch
