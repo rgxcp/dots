@@ -7,9 +7,12 @@
 RICING
 
 ## Requirements
-1. Arch linux based distribution
-2. i3wm
-3. zsh
-4. dmenu
-5. dunst
-6. neofetch
+| Category             | Detail                                               |
+|----------------------|------------------------------------------------------|
+| Distribution         | [Manjaro Linux i3](https://manjaro.org/download/#i3) |
+| Display Server       | [X.Org](https://www.x.org/wiki/)                     |
+| Window Manager       | [i3](https://i3wm.org/)                              |
+| Shell                | [zsh](https://www.zsh.org/)                          |
+| Application Launcher | [dmenu](https://tools.suckless.org/dmenu/)           |
+| Notification System  | [dunst](https://dunst-project.org/)                  |
+| System Fetch         | [neofetch](https://github.com/dylanaraps/neofetch)   |
