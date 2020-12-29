@@ -1,0 +1,8 @@
+/etc/bluetooth/main.conf
+/etc/modprobe.d/nobeep.conf
+$HOME/.config/dunst/dunstrc
+$HOME/.config/i3/config
+$HOME/.config/neofetch/config.conf
+$HOME/.dmenurc
+$HOME/.Xresources
+$HOME/.zshrc

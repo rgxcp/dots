@@ -7,9 +7,9 @@ update () {
     cp /etc/bluetooth/main.conf $CWD/etc/bluetooth/main.conf
     cp /etc/modprobe.d/nobeep.conf $CWD/etc/modprobe.d/nobeep.conf
     cp $HOME/.config/dunst/dunstrc $CWD/.config/dunst/dunstrc
+    cp $HOME/.config/i3/config $CWD/.config/i3/config
     cp $HOME/.config/neofetch/config.conf $CWD/.config/neofetch/config.conf
     cp $HOME/.dmenurc $CWD/.dmenurc
-    cp $HOME/.i3/config $CWD/.i3/config
     cp $HOME/.Xresources $CWD/.Xresources
     cp $HOME/.zshrc $CWD/.zshrc
 
@@ -27,9 +27,9 @@ replace () {
         cp $CWD/etc/bluetooth/main.conf /etc/bluetooth/main.conf
         cp $CWD/etc/modprobe.d/nobeep.conf /etc/modprobe.d/nobeep.conf
         cp $CWD/.config/dunst/dunstrc $HOME/.config/dunst/dunstrc
+        cp $CWD/.config/i3/config $HOME/.config/i3/config
         cp $CWD/.config/neofetch/config.conf $HOME/.config/neofetch/config.conf
         cp $CWD/.dmenurc $HOME/.dmenurc
-        cp $CWD/.i3/config $HOME/.i3/config
         cp $CWD/.Xresources $HOME/.Xresources
         cp $CWD/.zshrc $HOME/.zshrc
     else
@@ -52,10 +52,22 @@ config () {
     esac
 }
 
+clear_cache () {
+    # sudo pacman -Scc
+    # sudo pacman -Qdt
+    # sudo pacman -Rs $(pacman -Qdt)
+    # rm -rf ~/.cache/*
+    # ~/.config
+    # ~/.local
+    # /var/log/journal/
+    echo "Working..."
+}
+
 case $FLAG in
     "--update" | "-u") update;;
     "--replace" | "-r") replace;;
     "--config" | "-c") config $2;;
-    "") echo "Usage: dots [--update | -u] [--replace | -r] [--config | -c]";;
+    "--clear-cache" | "-cc") clear_cache $2;;
+    "") echo "Usage: dots [--update, -u] [--replace, -r] [--config, -c] [--clear-cache, -cc]";;
     *) echo "Unknown command";;
 esac

@@ -34,6 +34,7 @@ diffutils 3.7-3
 dmidecode 3.3-1
 dmraid 1.0.0.rc16.3-12
 dnsmasq 2.82-2
+dolphin 20.08.3-1
 dosfstools 4.1-3
 e2fsprogs 1.45.6-3
 ecryptfs-utils 111-4
@@ -146,6 +147,7 @@ pcmanfm 1.3.1-2.1
 perl 5.32.0-3
 perl-file-mimeinfo 0.30-1
 pkgconf 1.7.3-1
+playerctl 2.2.1-1
 polkit-gnome 0.105-5
 postman-bin 7.36.1-1
 powertop 2.13-1
@@ -200,6 +202,7 @@ wpa_supplicant 2:2.9-7
 xautolock 2.2-6
 xdg-user-dirs 0.17-3
 xdg-utils 1.1.3+19+g9816ebb-1
+xdman 2020.7.2.11-2
 xdotool 3.20160805.1-3
 xf86-input-elographics 1.4.2-2
 xf86-input-evdev 2.10.6-2
@@ -230,3 +233,4 @@ postman-bin 7.36.1-1
 spicetify-cli 1.1.0-1
 spotify 1:1.1.42.622-2
 visual-studio-code-bin 1.52.1-1
+xdman 2020.7.2.11-2
