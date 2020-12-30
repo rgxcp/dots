@@ -261,11 +261,11 @@ bar {
 # Window Color #
 ################
 # Class                 Border        Background    Text         Indicator     Child Border
-client.focused          $term_color13 $term_color13 $term_color8 $term_color5
-client.focused_inactive $term_color5  $term_color5  $term_color0 $term_color13
-client.unfocused        $term_color5  $term_color5  $term_color0 $term_color13
-client.urgent           $term_color9  $term_color9  $term_color8 $term_color5
-client.placeholder      $term_color5  $term_color5  $term_color0 $term_color13
+client.focused          $term_color13 $term_color13 $term_color8 $term_color8
+client.focused_inactive $term_color8  $term_color8  $term_color0 $term_color13
+client.unfocused        $term_color8  $term_color8  $term_color0 $term_color13
+client.urgent           $term_color9  $term_color9  $term_color8 $term_color8
+client.placeholder      $term_color8  $term_color8  $term_color0 $term_color13
 client.background       #2B2C2B
 # client.focused          #556064 #556064 #80FFF9 #FDF6E3
 # client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
