@@ -34,7 +34,7 @@ battery all {
         last_full_capacity = true
         integer_battery_capacity = true
         status_chr = "CHR"
-        status_bat = "BAT"
+        status_bat = "BTR"
         status_unk = "UNK"
         status_full = "FULL"
         low_threshold = 20
