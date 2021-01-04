@@ -5,6 +5,7 @@ acpid 2.0.32-2
 alsa-firmware 1.2.4-2
 alsa-plugins 1:1.2.2-2
 alsa-utils 1.2.4-2
+android-studio 4.1.1.0-1
 arandr 0.1.10-5
 arc-gtk-theme 20201013-2
 autoconf 2.69-7
@@ -19,6 +20,7 @@ bluez-utils 5.55-1
 bmenu 0.14-1
 btrfs-progs 5.9-3
 bzip2 1.0.8-4
+chntpw 140201-4
 clipit 1:1.4.3-2
 composer 2.0.8-1
 coreutils 8.32-1
@@ -70,6 +72,7 @@ intel-ucode 20201118-1
 inxi 3.2.01+1-2
 iproute2 5.9.0-1
 iputils 20200821-1
+jdk-openjdk 14.0.2.u12-1
 jfsutils 1.1.15-7
 kvantum-manjaro 0.13.5-1
 less 563-1
@@ -101,7 +104,7 @@ manjaro-hotfixes 2018.08-6
 manjaro-i3-settings 20200919-1
 manjaro-ranger-settings 20190513-2
 manjaro-release 20.2-1
-manjaro-system 20201211-1
+manjaro-system 20210101-3
 manjaro-zsh-config 0.18-1
 markdown_previewer 0.r6.64ad4d7-1
 mdadm 4.1-2
@@ -227,9 +230,9 @@ youtube-dl 2020.12.14-1
 zensu 0.3-1
 
 # AUR
+android-studio 4.1.1.0-1
 libpdfium-nojs 4280.r1.0950ad89ea-1
 megasync 4.3.8.0-1
-mhwd-nvidia-340xx 340.108-1
 postman-bin 7.36.1-1
 spicetify-cli 1.1.0-1
 spotify 1:1.1.42.622-2

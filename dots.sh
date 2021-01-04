@@ -66,6 +66,7 @@ clear_cache () {
     # rm -rf ~/.cache/*
     # ~/.config
     # ~/.local
+    # ~/.thumbnails
     # /var/log/journal/
     echo "Working..."
 }

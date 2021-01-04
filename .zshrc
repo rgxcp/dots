@@ -11,5 +11,8 @@ fi
 # Composer
 PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
+# Flutter
+PATH="$HOME/Projects/flutter/bin:$PATH"
+
 # Alias
 alias dots="bash $HOME/Projects/dots/dots.sh"

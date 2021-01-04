@@ -182,6 +182,7 @@ bindsym $mod+Shift+q exec qbittorrent
 bindsym $mod+Shift+s exec spotify
 bindsym $mod+Shift+t exec terminal
 bindsym $mod+Shift+v exec code
+bindsym $mod+Shift+Ctrl b exec firefox -private
 
 #################
 # Resize Window #
@@ -243,6 +244,8 @@ bar {
 	status_command i3status
 	position bottom
 	strip_workspace_numbers yes
+        bindsym button4 nop
+        bindsym button5 nop
 
         colors {
                 background $term_color8
