@@ -175,6 +175,7 @@ for_window [class="xdman"] floating enable border pixel $ps resize set 800 600
 #############
 bindsym $mod+d exec --no-startup-id dmenu_recency
 bindsym $mod+q kill
+bindsym $mod+Shift+a exec android-studio
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+Shift+f exec pcmanfm
 bindsym $mod+Shift+p exec postman
@@ -182,7 +183,8 @@ bindsym $mod+Shift+q exec qbittorrent
 bindsym $mod+Shift+s exec spotify
 bindsym $mod+Shift+t exec terminal
 bindsym $mod+Shift+v exec code
-bindsym $mod+Shift+Ctrl b exec firefox -private
+bindsym $mod+Shift+Ctrl+b exec firefox -private
+bindsym $mod+Shift+Ctrl+f exec dolphin
 
 #################
 # Resize Window #

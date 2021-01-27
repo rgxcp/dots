@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 FLAG=$1
 
 update () {

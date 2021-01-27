@@ -16,3 +16,5 @@ PATH="$HOME/Projects/flutter/bin:$PATH"
 
 # Alias
 alias dots="bash $HOME/Projects/dots/dots.sh"
+alias lara-start="bash $HOME/Projects/kelasan-api/server.sh --start"
+alias lara-stop="bash $HOME/Projects/kelasan-api/server.sh --stop"
