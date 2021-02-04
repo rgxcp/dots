@@ -164,17 +164,19 @@ bindsym $mod+space focus mode_toggle
 ########################
 for_window [title="alsamixer"] floating enable border pixel $ps
 for_window [title="File Transfer*"] floating enable border pixel $ps
+for_window [class="Gnome-screenshot"] floating enable border pixel $ps
 for_window [class="Lxappearance"] floating enable border pixel $ps
 for_window [class="Nitrogen"] floating enable border pixel $ps
 for_window [class="Pamac-manager"] floating enable border pixel $ps
 for_window [class="qt5ct"] floating enable border pixel $ps
-for_window [class="xdman"] floating enable border pixel $ps resize set 800 600
+for_window [class="xdman"] floating enable border pixel $ps resize set 1000 800
 
 #############
 # Shortcuts #
 #############
 bindsym $mod+d exec --no-startup-id dmenu_recency
 bindsym $mod+q kill
+bindsym $mod+Ctrl+s exec gnome-screenshot --interactive
 bindsym $mod+Shift+a exec android-studio
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+Shift+f exec pcmanfm
@@ -183,6 +185,7 @@ bindsym $mod+Shift+q exec qbittorrent
 bindsym $mod+Shift+s exec spotify
 bindsym $mod+Shift+t exec terminal
 bindsym $mod+Shift+v exec code
+bindsym $mod+Shift+x exec xdman
 bindsym $mod+Shift+Ctrl+b exec firefox -private
 bindsym $mod+Shift+Ctrl+f exec dolphin
 

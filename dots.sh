@@ -61,8 +61,8 @@ add_config () {
 
 clear_cache () {
     # sudo pacman -Scc
-    # sudo pacman -Qdt
-    # sudo pacman -Rs $(pacman -Qdt)
+    # sudo pacman -Qtdq
+    # sudo pacman -Rns $(pacman -Qtdq)
     # rm -rf ~/.cache/*
     # ~/.config
     # ~/.local
