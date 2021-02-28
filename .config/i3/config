@@ -176,7 +176,8 @@ for_window [class="xdman"] floating enable border pixel $ps resize set 1000 800
 #############
 bindsym $mod+d exec --no-startup-id dmenu_recency
 bindsym $mod+q kill
-bindsym $mod+Ctrl+s exec gnome-screenshot --interactive
+bindsym $mod+Ctrl+g exec gnome-screenshot --interactive
+bindsym $mod+Ctrl+s --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+a exec android-studio
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+Shift+f exec pcmanfm
