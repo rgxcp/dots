@@ -71,12 +71,37 @@ clear_cache () {
     echo "Working..."
 }
 
+system_update () {
+    echo "=== UPDATING PACMAN PACKAGES ==="
+    sudo pacman -Syu
+
+    echo "=== UPDATING AUR PACKAGES ==="
+    yay -Syu
+
+    echo "=== REMOVING ORPHAN PACKAGES ==="
+    sudo pacman -Rns $(pacman -Qtdq)
+
+    echo "=== REMOVING CACHES ==="
+    yay -Scc
+
+    echo "=== SYNCING WITH DOTS ==="
+    update
+}
+
 case $FLAG in
     "--update" | "-u") update;;
     "--replace" | "-r") replace;;
     "--config" | "-c") config $2;;
     "--add-config" | "-ac") add_config $2 $3;;
     "--clear-cache" | "-cc") clear_cache $2;;
-    "") echo "Usage: dots [--update, -u] [--replace, -r] [--config, -c] [--add-config, -ac] [--clear-cache, -cc]";;
+    "--system-update" | "-su") system_update;;
+    "") echo "Usage: dots [args]
+    Available args:
+    [--update, -u]
+    [--replace, -r]
+    [--config, -c]
+    [--add-config, -ac]
+    [--clear-cache, -cc]
+    [--system-update, -su]";;
     *) echo "Unknown command";;
 esac
