@@ -48,7 +48,7 @@ fakeroot 1.25.3-2
 file 5.39-1
 filesystem 2021.01.19-1
 findutils 4.8.0-1
-firefox 86.0-1
+firefox 86.0-2
 flex 2.6.4-3
 gawk 5.1.0-1
 gcc-libs 10.2.0-6
@@ -106,7 +106,7 @@ manjaro-hotfixes 2018.08-6
 manjaro-i3-settings 20200919-1
 manjaro-ranger-settings 20190513-2
 manjaro-release 20.2.1-1
-manjaro-system 20210217-1
+manjaro-system 20210302-1
 manjaro-zsh-config 0.20-3
 markdown_previewer 0.r6.64ad4d7-1
 mdadm 4.1-2
@@ -144,7 +144,7 @@ openssh 8.4p1-2
 os-prober 1.77-1
 p7zip 17.03-2
 pacman 5.2.2-4
-pamac-gtk 10.0.4-2
+pamac-gtk 10.0.4-3.1
 patch 2.7.6-8
 patchutils 0.4.2-1
 pciutils 3.7.0-1
