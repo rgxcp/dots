@@ -110,7 +110,7 @@ manjaro-system 20210302-1
 manjaro-zsh-config 0.20-3
 markdown_previewer 0.r6.64ad4d7-1
 mdadm 4.1-2
-megasync 4.3.8.0-1
+megasync 4.4.0.0-1
 memtest86+ 5.01-4
 mesa-demos 8.4.0-4
 mesa-vdpau 20.3.4-3
@@ -195,7 +195,7 @@ util-linux 2.36.2-1
 vi 1:070224-4
 viewnior 1.7-3
 vim 8.2.2489-1
-visual-studio-code-bin 1.53.2-1
+visual-studio-code-bin 1.54.1-1
 vlc 3.0.12-1
 volumeicon 0.5.1-5
 vulkan-intel 20.3.4-3
@@ -236,11 +236,11 @@ zip 3.0-9
 
 # AUR
 android-studio 4.1.2.0-1
-libpdfium-nojs 4280.r1.0950ad89ea-1
-megasync 4.3.8.0-1
+libpdfium-nojs 4389.r1.157601b9b9-1
+megasync 4.4.0.0-1
 postman-bin 8.0.6-1
 spicetify-cli 1.2.1-1
 spotify 1:1.1.42.622-2
-visual-studio-code-bin 1.53.2-1
+visual-studio-code-bin 1.54.1-1
 xampp 7.4.12-1
 xdman 2020.7.2.11-2
