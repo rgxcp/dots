@@ -5,7 +5,7 @@ acpid 2.0.32-2
 alsa-firmware 1.2.4-2
 alsa-plugins 1:1.2.2-2
 alsa-utils 1.2.4-2
-android-studio 4.1.2.0-1
+android-studio 4.1.3.0-1
 arandr 0.1.10-5
 arc-gtk-theme 20210127-1
 autoconf 2.71-1
@@ -48,7 +48,7 @@ fakeroot 1.25.3-2
 file 5.39-1
 filesystem 2021.01.19-1
 findutils 4.8.0-1
-firefox 86.0.1-1
+firefox 87.0-0.1
 flex 2.6.4-3
 gawk 5.1.0-1
 gcc-libs 10.2.0-6
@@ -106,7 +106,7 @@ manjaro-hotfixes 2018.08-6
 manjaro-i3-settings 20200919-1
 manjaro-ranger-settings 20190513-2
 manjaro-release 21.0-1
-manjaro-system 20210302-1
+manjaro-system 20210321-2
 manjaro-zsh-config 0.20-3
 markdown_previewer 0.r6.64ad4d7-1
 mdadm 4.1-2
@@ -154,7 +154,7 @@ perl-file-mimeinfo 0.30-1
 pkgconf 1.7.3-1
 playerctl 2.3.1-1
 polkit-gnome 0.105-5
-postman-bin 8.0.7-1
+postman-bin 8.0.9-1
 powertop 2.13-1
 procps-ng 3.3.17-1
 psmisc 23.4-1
@@ -173,7 +173,7 @@ shadow 4.8.1-4
 spectre-meltdown-checker 0.43-1
 speedtest-cli 2.1.2-3
 spicetify-cli 1.2.1-1
-spotify 1:1.1.55.494-1
+spotify 1:1.1.55.498-2
 squashfs-tools 4.4-2
 sudo 1.9.6.p1-1
 sysfsutils 2.1.1-1
@@ -235,12 +235,12 @@ zensu 0.3-1
 zip 3.0-9
 
 # AUR
-android-studio 4.1.2.0-1
+android-studio 4.1.3.0-1
 libpdfium-nojs 4389.r1.157601b9b9-1
 megasync 4.4.0.0-1
-postman-bin 8.0.7-1
+postman-bin 8.0.9-1
 spicetify-cli 1.2.1-1
-spotify 1:1.1.55.494-1
+spotify 1:1.1.55.498-2
 visual-studio-code-bin 1.54.3-3
 xampp 7.4.12-1
 xdman 2020.7.2.11-2
