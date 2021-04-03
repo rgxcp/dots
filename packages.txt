@@ -154,7 +154,7 @@ perl-file-mimeinfo 0.30-1
 pkgconf 1.7.3-1
 playerctl 2.3.1-1
 polkit-gnome 0.105-5
-postman-bin 8.0.9-1
+postman-bin 8.0.10-1
 powertop 2.13-1
 procps-ng 3.3.17-1
 psmisc 23.4-1
@@ -170,7 +170,7 @@ sbxkb 0.7.6-5
 screenfetch 3.9.1-1
 sed 4.8-1
 shadow 4.8.1-4
-spectre-meltdown-checker 0.43-1
+spectre-meltdown-checker 0.44-1
 speedtest-cli 2.1.2-3
 spicetify-cli 1.2.1-1
 spotify 1:1.1.55.498-2
@@ -195,7 +195,7 @@ util-linux 2.36.2-1
 vi 1:070224-4
 viewnior 1.7-3
 vim 8.2.2489-1
-visual-studio-code-bin 1.54.3-3
+visual-studio-code-bin 1.55.0-1
 vlc 3.0.12-2
 volumeicon 0.5.1-5
 vulkan-intel 20.3.4-3
@@ -238,9 +238,9 @@ zip 3.0-9
 android-studio 4.1.3.0-1
 libpdfium-nojs 4389.r1.157601b9b9-1
 megasync 4.4.0.0-1
-postman-bin 8.0.9-1
+postman-bin 8.0.10-1
 spicetify-cli 1.2.1-1
 spotify 1:1.1.55.498-2
-visual-studio-code-bin 1.54.3-3
+visual-studio-code-bin 1.55.0-1
 xampp 7.4.12-1
 xdman 2020.7.2.11-2
