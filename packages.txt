@@ -48,7 +48,7 @@ fakeroot 1.25.3-2
 file 5.39-1
 filesystem 2021.01.19-1
 findutils 4.8.0-1
-firefox 87.0-1
+firefox 87.0-2
 flex 2.6.4-3
 gawk 5.1.0-1
 gcc-libs 10.2.0-6
@@ -71,7 +71,7 @@ htop 3.0.5-1
 i3-default-artwork 20190912-1
 inetutils 1.9.4-8
 intel-ucode 20210216-1
-inxi 3.3.03.1-1
+inxi 3.3.04.1-1
 iproute2 5.11.0-1
 iputils 20200821-1
 jdk-openjdk 15.0.2.u7-1
@@ -195,7 +195,7 @@ util-linux 2.36.2-1
 vi 1:070224-4
 viewnior 1.7-3
 vim 8.2.2653-1
-visual-studio-code-bin 1.55.0-2
+visual-studio-code-bin 1.55.2-1
 vlc 3.0.12-3
 volumeicon 0.5.1-5
 vulkan-intel 21.0.1-1.0
@@ -241,6 +241,6 @@ megasync 4.4.0.0-1
 postman-bin 8.1.0-1
 spicetify-cli 1.2.1-1
 spotify 1:1.1.56.595-1
-visual-studio-code-bin 1.55.0-2
+visual-studio-code-bin 1.55.2-1
 xampp 7.4.12-1
 xdman 2020.7.2.11-2
