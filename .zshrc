@@ -14,6 +14,9 @@ PATH="$HOME/.config/composer/vendor/bin:$PATH"
 # Flutter
 PATH="$HOME/Projects/flutter/bin:$PATH"
 
+# Ruby
+PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
+
 # Alias
 alias checkpoint="bash $HOME/Projects/checkpoint/checkpoint.sh"
 alias dots="bash $HOME/Projects/dots/dots.sh"
