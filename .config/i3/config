@@ -66,6 +66,7 @@ exec --no-startup-id blueberry-tray
 exec --no-startup-id nm-applet
 exec --no-startup-id pamac-tray
 exec --no-startup-id volumeicon
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
@@ -180,7 +181,7 @@ bindsym $mod+Ctrl+g exec gnome-screenshot --interactive
 bindsym $mod+Ctrl+s --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+a exec android-studio
 bindsym $mod+Shift+b exec firefox
-bindsym $mod+Shift+f exec pcmanfm
+bindsym $mod+Shift+f exec dolphin
 bindsym $mod+Shift+p exec postman
 bindsym $mod+Shift+q exec qbittorrent
 bindsym $mod+Shift+s exec spotify
@@ -188,7 +189,7 @@ bindsym $mod+Shift+t exec terminal
 bindsym $mod+Shift+v exec code
 bindsym $mod+Shift+x exec xdman
 bindsym $mod+Shift+Ctrl+b exec firefox -private
-bindsym $mod+Shift+Ctrl+f exec dolphin
+bindsym $mod+Shift+Ctrl+f exec pcmanfm
 
 #################
 # Resize Window #
