@@ -61,10 +61,6 @@ config () {
     esac
 }
 
-add_config () {
-    echo "Working..."
-}
-
 clear_cache () {
     # sudo pacman -Scc
     # sudo pacman -Qtdq
@@ -98,7 +94,6 @@ case $FLAG in
     "--update" | "-u") update;;
     "--replace" | "-r") replace;;
     "--config" | "-c") config $2;;
-    "--add-config" | "-ac") add_config $2 $3;;
     "--clear-cache" | "-cc") clear_cache $2;;
     "--system-update" | "-su") system_update;;
     "") echo "Usage: dots [args]

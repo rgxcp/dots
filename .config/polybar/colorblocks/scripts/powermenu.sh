@@ -64,7 +64,7 @@ case $chosen in
 		# elif [[ -f /usr/bin/betterlockscreen ]]; then
 		# 	betterlockscreen -l
 		# fi
-		betterlockscreen -l
+		betterlockscreen -l blur
         ;;
     $suspend)
 		# ans=$(confirm_exit &)

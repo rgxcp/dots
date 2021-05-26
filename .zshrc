@@ -7,7 +7,12 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
   source /usr/share/zsh/manjaro-zsh-prompt
 fi
 
-# PATH
+# Startups
+# pywal
+(cat ~/.cache/wal/sequences &)
+cat ~/.cache/wal/sequences
+
+# PATH(s)
 # Composer
 PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
@@ -17,7 +22,7 @@ PATH="$HOME/Projects/flutter/bin:$PATH"
 # Ruby
 PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
 
-# Alias
+# Aliases
 alias checkpoint="bash $HOME/Projects/checkpoint/checkpoint.sh"
 alias dots="bash $HOME/Projects/dots/dots.sh"
 alias xampp-start="sudo xampp startapache && sudo xampp startmysql"
