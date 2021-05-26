@@ -13,6 +13,8 @@ update () {
     cat $HOME/.dmenurc > $CWD/.dmenurc
     cat $HOME/.Xresources > $CWD/.Xresources
     cat $HOME/.zshrc > $CWD/.zshrc
+    cp -R -u $HOME/.config/polybar $CWD/.config
+    cp -R -u $HOME/.config/rofi $CWD/.config
 
     echo "# All" > $CWD/packages.txt
     pacman -Qe >> $CWD/packages.txt
@@ -34,6 +36,8 @@ replace () {
         cat $CWD/.dmenurc > $HOME/.dmenurc
         cat $CWD/.Xresources > $HOME/.Xresources
         cat $CWD/.zshrc > $HOME/.zshrc
+        cp -R $CWD/.config/polybar $HOME/.config
+        cp -R $CWD/.config/rofi $HOME/.config
     else
         echo "No operation were performed."
     fi
@@ -48,6 +52,8 @@ config () {
         "i3") code $HOME/.config/i3/config;;
         "i3status") code $HOME/.config/i3status/config;;
         "neofetch") code $HOME/.config/neofetch/config.conf;;
+        "polybar") code $HOME/.config/polybar;;
+        "rofi") code $HOME/.config/rofi;;
         "xres") code $HOME/.Xresources;;
         "zsh") code $HOME/.zshrc;;
         "") echo "Usage: dots <--config | -c> [file]";;

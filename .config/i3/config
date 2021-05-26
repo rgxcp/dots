@@ -60,13 +60,13 @@ hide_edge_borders both
 # Startups #
 ############
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 1; picom -b
+exec --no-startup-id nitrogen --restore; sleep 1; picom -C -b
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id blueberry-tray
 exec --no-startup-id nm-applet
 exec --no-startup-id pamac-tray
 exec --no-startup-id volumeicon
-# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id $HOME/.config/polybar/launch.sh --colorblocks
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
@@ -175,10 +175,13 @@ for_window [class="xdman"] floating enable border pixel $ps resize set 1000 800
 #############
 # Shortcuts #
 #############
-bindsym $mod+d exec --no-startup-id dmenu_recency
+# bindsym $mod+d exec --no-startup-id dmenu_recency
+bindsym $mod+d exec --no-startup-id $HOME/.config/rofi/bin/launcher_text
 bindsym $mod+q kill
-bindsym $mod+Ctrl+g exec gnome-screenshot --interactive
-bindsym $mod+Ctrl+s --release exec --no-startup-id i3-scrot -w
+bindsym $mod+0 exec --no-startup-id $HOME/.config/polybar/colorblocks/scripts/powermenu.sh
+# bindsym $mod+Ctrl+g exec gnome-screenshot --interactive
+# bindsym $mod+Ctrl+s --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Ctrl+s exec --no-startup-id $HOME/.config/rofi/bin/menu_screenshot
 bindsym $mod+Shift+a exec android-studio
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+Shift+f exec dolphin
@@ -208,18 +211,18 @@ mode "Resize" {
 ################
 # Power Option #
 ################
-set $mode_system Lock [l], Exit [e], Switch User [u], Suspend [s], Reboot [r], Shutdown [Shift+s]
-bindsym $mod+0 mode "$mode_system"
-mode "$mode_system" {
-    bindsym l exec --no-startup-id i3exit lock, mode "default"
-    bindsym e exec --no-startup-id i3exit logout, mode "default"
-    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
-    bindsym s exec --no-startup-id i3exit suspend, mode "default"
-    bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
-    # Exit Mode
-    bindsym Escape mode "default"
-}
+# set $mode_system Lock [l], Exit [e], Switch User [u], Suspend [s], Reboot [r], Shutdown [Shift+s]
+# bindsym $mod+0 mode "$mode_system"
+# mode "$mode_system" {
+#     bindsym l exec --no-startup-id i3exit lock, mode "default"
+#     bindsym e exec --no-startup-id i3exit logout, mode "default"
+#     bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+#     bindsym s exec --no-startup-id i3exit suspend, mode "default"
+#     bindsym r exec --no-startup-id i3exit reboot, mode "default"
+#     bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+#     # Exit Mode
+#     bindsym Escape mode "default"
+# }
 
 #################
 # Color Schemes #
@@ -246,26 +249,26 @@ set_from_resource $term_color15    color15
 ##########
 # i3 Bar #
 ##########
-bar {
-	i3bar_command i3bar
-	status_command i3status
-	position bottom
-	strip_workspace_numbers yes
-        bindsym button4 nop
-        bindsym button5 nop
-
-        colors {
-                background $term_color8
-                statusline $term_foreground
-                separator  $term_foreground
-                # Class            Border       Background       Text
-                focused_workspace  $term_color8 $term_foreground $term_color8
-                active_workspace   $term_color8 $term_foreground $term_color8
-                inactive_workspace $term_color8 $term_color8     $term_foreground
-                binding_mode       $term_color8 $term_color8     $term_foreground
-                urgent_workspace   $term_color8 $term_color9     $term_color8
-        }
-}
+# bar {
+# 	i3bar_command i3bar
+# 	status_command i3status
+# 	position bottom
+# 	strip_workspace_numbers yes
+#         bindsym button4 nop
+#         bindsym button5 nop
+# 
+#         colors {
+#                 background $term_color8
+#                 statusline $term_foreground
+#                 separator  $term_foreground
+#                 # Class            Border       Background       Text
+#                 focused_workspace  $term_color8 $term_foreground $term_color8
+#                 active_workspace   $term_color8 $term_foreground $term_color8
+#                 inactive_workspace $term_color8 $term_color8     $term_foreground
+#                 binding_mode       $term_color8 $term_color8     $term_foreground
+#                 urgent_workspace   $term_color8 $term_color9     $term_color8
+#         }
+# }
 
 ################
 # Window Color #
@@ -289,8 +292,8 @@ client.background       #2B2C2B
 ########
 gaps inner 10
 gaps outer -2
-smart_gaps on
-smart_borders on
+# smart_gaps on
+# smart_borders on
 
 ###############
 # Resize Gaps #
