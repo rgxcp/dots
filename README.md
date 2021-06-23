@@ -59,6 +59,7 @@ RICING
 | ntfs-3g                      | NTFS partition management      |
 | nvidia                       | NVIDIA graphic card driver     |
 | os-prober                    | Multi boot management          |
+| papirus-icon-theme           | Icons                          |
 | pcmanfm                      | File manager                   |
 | picom                        | Compositor                     |
 | python-pywal                 | Color schemes generator        |
@@ -78,4 +79,11 @@ RICING
 | betterlockscreen       | Lock screen     |
 | polybar                | Status bar      |
 | spotify                | Music streamer  |
+| ttf-iosevka            | Fonts           |
 | visual-studio-code-bin | GUI text editor |
+
+## Themes & Configurations
+
+- [GRUB](https://github.com/vinceliuice/grub2-themes#vimix-grub-theme)
+- [Polybar](https://github.com/adi1090x/polybar-themes#colorblocks)
+- [Rofi](https://github.com/adi1090x/rofi#colorful)
