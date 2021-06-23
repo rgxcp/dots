@@ -3,15 +3,21 @@
 ARG=$1
 
 main () {
+    echo "╔═══════════════════════════╗"
+    echo "║ ▒█▀▀▄ ▒█▀▀▀█ ▀▀█▀▀ ▒█▀▀▀█ ║"
+    echo "║ ▒█░▒█ ▒█░░▒█ ░▒█░░ ░▀▀▀▄▄ ║"
+    echo "║ ▒█▄▄▀ ▒█▄▄▄█ ░▒█░░ ▒█▄▄▄█ ║"
+    echo "║          v1.0.0           ║"
+    echo "╚═══════════════════════════╝"
+
     case $ARG in
         "-bc") ./scripts/backup_config.sh;;
-        "-cc") ./scripts/clear_cache.sh;;
-        "-cs") ./scripts/configure_system.sh;;
+        #"-cs") ./scripts/configure_system.sh;;
         "-rc") ./scripts/replace_config.sh;;
-        "-scs") ./scripts/sync_color_scheme.sh;;
+        #"-scs") ./scripts/sync_color_scheme.sh;;
         "-su") ./scripts/system_update.sh;;
-        "") ./scripts/print_usage.sh;;
-        *) ./scripts/print_usage.sh;;
+        "") ./scripts/interactive_menu.sh;;
+        *) ./scripts/unknown_command.sh;;
     esac
 }
 
