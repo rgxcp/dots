@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ARG=$1
+PD=$HOME/Projects/dots/scripts
 
 main () {
     echo "╔═══════════════════════════╗"
@@ -11,13 +12,13 @@ main () {
     echo "╚═══════════════════════════╝"
 
     case $ARG in
-        "-bc") ./scripts/backup_config.sh;;
-        #"-cs") ./scripts/configure_system.sh;;
-        "-rc") ./scripts/replace_config.sh;;
-        #"-scs") ./scripts/sync_color_scheme.sh;;
-        "-su") ./scripts/system_update.sh;;
-        "") ./scripts/interactive_menu.sh;;
-        *) ./scripts/unknown_command.sh;;
+        "-bc") $PD/backup_config.sh;;
+        "-cs") $PD/configure_system.sh;;
+        "-rc") $PD/replace_config.sh;;
+        #"-scs") $PD/sync_color_scheme.sh;;
+        "-su") $PD/system_update.sh;;
+        "") $PD/interactive_menu.sh;;
+        *) $PD/unknown_command.sh;;
     esac
 }
 

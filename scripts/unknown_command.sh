@@ -2,11 +2,12 @@
 
 RED="\e[31m"
 WHITE="\e[0m"
+PD=$HOME/Projects/dots/scripts
 
 main () {
     echo -e "${RED}ERROR: Unknown command.${WHITE}"
     echo ""
-    ./scripts/interactive_menu.sh
+    $PD/interactive_menu.sh
 }
 
 main

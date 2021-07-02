@@ -66,11 +66,13 @@ RICING
 | qbittorrent                  | Torrent client                 |
 | qtile                        | Window manager                 |
 | rofi                         | Menu launcher                  |
+| starship                     | Shell prompt                   |
 | vlc                          | Video player                   |
 | xf86-video-intel             | Intel graphic card driver      |
 | xorg                         | Display server                 |
 | xorg-xinit                   | Display server init system     |
 | youtube-dl                   | YouTube downloader             |
+| zsh                          | Shell                          |
 
 ### AUR Packages
 
