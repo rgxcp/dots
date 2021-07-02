@@ -1,0 +1,48 @@
+[2021-07-02 08:33:06.983] [exthost] [info] extension host started
+[2021-07-02 08:33:07.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-07-02 08:33:07.026] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-07-02 08:33:07.043] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-02 08:33:07.043] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-07-02 08:33:07.047] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-02 08:33:07.047] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2021-07-02 08:33:07.068] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"extensionId":{"value":"Equinusocio.vsc-material-theme","_lower":"equinusocio.vsc-material-theme"},"activationEvent":"*"}
+[2021-07-02 08:33:07.068] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/northern/.vscode/extensions/equinusocio.vsc-material-theme-33.2.2/build/material.theme.config
+[2021-07-02 08:33:07.082] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-07-02 08:33:07.082] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/northern/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension
+[2021-07-02 08:33:07.096] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2021-07-02 08:33:07.097] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/northern/.vscode/extensions/streetsidesoftware.code-spell-checker-1.10.2/dist/extension.js
+[2021-07-02 08:33:07.358] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-07-02 08:33:07.358] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-02 08:33:07.459] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-02 08:33:07.459] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github/dist/extension.js
+[2021-07-02 08:33:07.530] [exthost] [info] eager extensions activated
+[2021-07-02 08:33:07.538] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-07-02 08:33:07.538] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-07-02 08:33:07.548] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-07-02 08:33:07.548] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-02 08:33:07.556] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-02 08:33:07.556] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-02 08:33:07.560] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-02 08:33:07.560] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-02 08:33:07.561] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2 {"startup":false,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer-2","_lower":"coenraads.bracket-pair-colorizer-2"},"activationEvent":"onStartupFinished"}
+[2021-07-02 08:33:07.561] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/northern/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.1/out/src/extension
+[2021-07-02 08:33:07.585] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2021-07-02 08:33:07.585] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/northern/.vscode/extensions/dbaeumer.vscode-eslint-2.1.23/client/out/extension
+[2021-07-02 08:33:07.598] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-07-02 08:33:07.598] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/northern/.vscode/extensions/esbenp.prettier-vscode-8.0.1/dist/extension
+[2021-07-02 08:44:42.879] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2021-07-02 08:44:42.879] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-07-02 08:44:42.882] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2021-07-02 08:44:42.882] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension
+[2021-07-02 08:46:52.796] [exthost] [error] [vscode.markdown-language-features] provider FAILED
+[2021-07-02 08:46:52.806] [exthost] [error] Error: Illegal value for `line`
+	at l._lineAt (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:78:1166)
+	at Object.lineAt (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:78:95)
+	at /opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension.js:1:95471
+	at Array.map (<anonymous>)
+	at t.default.getBlockFoldingRanges (/opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension.js:1:95420)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 2)
+	at async t.default.provideFoldingRanges (/opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension.js:1:94680)
+[2021-07-02 08:50:19.287] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-07-02 08:50:20.298] [exthost] [info] exiting with code 0

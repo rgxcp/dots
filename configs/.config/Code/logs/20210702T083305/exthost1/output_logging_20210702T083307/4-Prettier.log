@@ -1,0 +1,64 @@
+["INFO" - 8:33:07 AM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 8:33:07 AM] Extension Version: 8.0.1.
+["INFO" - 8:47:09 AM] Formatting /home/northern/Projects/dots/README.md
+["INFO" - 8:47:09 AM] Using ignore file (if present) at /home/northern/Projects/dots/.prettierignore
+["INFO" - 8:47:09 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "markdown"
+}
+["INFO" - 8:47:09 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:47:09 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/northern/Projects/dots/README.md",
+  "parser": "markdown"
+}
+["INFO" - 8:47:09 AM] Formatting completed in 126.234178ms.
+["INFO" - 8:47:21 AM] Formatting /home/northern/Projects/dots/README.md
+["INFO" - 8:47:21 AM] Using ignore file (if present) at /home/northern/Projects/dots/.prettierignore
+["INFO" - 8:47:21 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "markdown"
+}
+["INFO" - 8:47:21 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:47:21 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/northern/Projects/dots/README.md",
+  "parser": "markdown"
+}
+["INFO" - 8:47:22 AM] Formatting completed in 67.37922ms.

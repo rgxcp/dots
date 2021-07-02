@@ -1,0 +1,912 @@
+Looking for git in: git
+Using git 2.32.0 from git
+> git rev-parse --git-dir
+Open repository: /home/northern/Projects/dots
+> git fetch
+> git status -z -u
+fatal: unable to access 'https://github.com/rgxcp/dots.git/': Could not resolve host: github.com
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/b.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/b.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/c.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/c.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :scripts/system_update.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s 09b6a4cdf96bf3f76b8e5ae5b469743ec7e98015
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/c.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/c.txt
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git show --textconv :packages/b.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/b.txt
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/b.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/b.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git show --textconv :packages/b.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/b.txt
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/b.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/b.txt
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git show --textconv :packages/b.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/b.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git show --textconv :packages/b.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/b.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git show --textconv :packages/b.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/b.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git show --textconv :packages/c.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/c.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/c.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/c.txt
+> git show --textconv :packages/a.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/a.txt
+> git show --textconv :packages/c.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/c.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/clear_cache.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/clear_cache.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/clear_cache.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :scripts/clear_cache.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/clear_cache.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :scripts/clear_cache.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/system_update.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s 09b6a4cdf96bf3f76b8e5ae5b469743ec7e98015
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s 09b6a4cdf96bf3f76b8e5ae5b469743ec7e98015
+> git show --textconv :scripts/system_update.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/clear_cache.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/clear_cache.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :scripts/clear_cache.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/clear_cache.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git checkout -q -- /home/northern/Projects/dots/dots.sh /home/northern/Projects/dots/scripts/clear_cache.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/dots.sh
+> git cat-file -s 12b2ed27d68f4d96b6b0843fc8f0a5c4b7dc3af4
+> git show --textconv :builds/040621/dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/builds/040621/dots.sh
+> git cat-file -s e796d036c561b066b76a7df40bc2d56a1c0cc3f7
+> git check-ignore -v -z --stdin
+> git show --textconv :scripts/interactive_menu.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/interactive_menu.sh
+> git show --textconv :builds/040621/dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/builds/040621/dots.sh
+> git cat-file -s e796d036c561b066b76a7df40bc2d56a1c0cc3f7
+> git show --textconv :scripts/interactive_menu.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/interactive_menu.sh
+> git show --textconv :dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/dots.sh
+> git cat-file -s 12b2ed27d68f4d96b6b0843fc8f0a5c4b7dc3af4
+> git show --textconv :scripts/interactive_menu.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/interactive_menu.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/dots.sh
+> git cat-file -s 12b2ed27d68f4d96b6b0843fc8f0a5c4b7dc3af4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/interactive_menu.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/interactive_menu.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/dots.sh
+> git cat-file -s 12b2ed27d68f4d96b6b0843fc8f0a5c4b7dc3af4
+> git show --textconv :scripts/system_update.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :scripts/system_update.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :README.md
+> git ls-files --stage -- /home/northern/Projects/dots/README.md
+> git cat-file -s bf052614f3b624529a855cde80ddf8fa72843567
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/system_update.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :README.md
+> git ls-files --stage -- /home/northern/Projects/dots/README.md
+> git cat-file -s bf052614f3b624529a855cde80ddf8fa72843567
+> git show --textconv :scripts/system_update.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :README.md
+> git ls-files --stage -- /home/northern/Projects/dots/README.md
+> git cat-file -s bf052614f3b624529a855cde80ddf8fa72843567
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/system_update.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/aur.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/aur.txt
+> git show --textconv :packages/pacman.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/pacman.txt
+> git show --textconv :packages/aur.txt
+> git ls-files --stage -- /home/northern/Projects/dots/packages/aur.txt
+> git show --textconv :scripts/system_update.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/system_update.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git add -A -- /home/northern/Projects/dots/dots.sh /home/northern/Projects/dots/scripts/backup_config.sh /home/northern/Projects/dots/scripts/clear_cache.sh /home/northern/Projects/dots/scripts/configure_system.sh /home/northern/Projects/dots/scripts/print_usage.sh /home/northern/Projects/dots/scripts/replace_config.sh /home/northern/Projects/dots/scripts/system_update.sh /home/northern/Projects/dots/packages/aur.txt /home/northern/Projects/dots/packages/pacman.txt /home/northern/Projects/dots/scripts/interactive_menu.sh /home/northern/Projects/dots/scripts/unknown_command.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/dots.sh
+> git cat-file -s 70cffba0c43ae136430407d9a6bbfd7fe7f31ce0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s 3ff7b8bf0e1e00abf4ba0a51192a645343c857d0
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s 3ff7b8bf0e1e00abf4ba0a51192a645343c857d0
+> git show --textconv :scripts/configure_system.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git checkout -q -- /home/northern/Projects/dots/dots.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv HEAD:scripts/configure_system.sh
+> git ls-tree -l HEAD -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/dots.sh
+> git cat-file -s 70cffba0c43ae136430407d9a6bbfd7fe7f31ce0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :scripts/interactive_menu.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/interactive_menu.sh
+> git cat-file -s f725addddae4709f54dd8c055fe5f28691f6c4fb
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :README.md
+> git ls-files --stage -- /home/northern/Projects/dots/README.md
+> git cat-file -s bf052614f3b624529a855cde80ddf8fa72843567
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/interactive_menu.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/interactive_menu.sh
+> git cat-file -s f725addddae4709f54dd8c055fe5f28691f6c4fb
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :dots.sh
+> git ls-files --stage -- /home/northern/Projects/dots/dots.sh
+> git cat-file -s 70cffba0c43ae136430407d9a6bbfd7fe7f31ce0
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv HEAD:scripts/configure_system.sh
+> git show --textconv :scripts/configure_system.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :scripts/configure_system.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+> git show --textconv :scripts/configure_system.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+Opening repository for path='/home/northern' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a
+Opening repository for path='/home/northern' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/northern/Projects/dots/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :scripts/configure_system.sh
+> git ls-files --stage -- /home/northern/Projects/dots/scripts/configure_system.sh
+> git cat-file -s e3f9c16fdad3a40a5d59accdc3b4117ddf5a5e6a

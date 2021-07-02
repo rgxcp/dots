@@ -1,0 +1,11 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true
+}

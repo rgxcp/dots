@@ -1,0 +1,13 @@
+[2021-07-02 08:38:09.106] [renderer1] [error] EACCES: permission denied, open '/home/northern/.vscode/extensions/.obsolete': Error: EACCES: permission denied, open '/home/northern/.vscode/extensions/.obsolete'
+    at file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:54:180000
+    at async Promise.all (index 0)
+    at async l.scanExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:54:180076)
+[2021-07-02 08:46:52.810] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+	at l._lineAt (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:78:1166)
+	at Object.lineAt (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:78:95)
+	at /opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension.js:1:95471
+	at Array.map (<anonymous>)
+	at t.default.getBlockFoldingRanges (/opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension.js:1:95420)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 2)
+	at async t.default.provideFoldingRanges (/opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension.js:1:94680)
