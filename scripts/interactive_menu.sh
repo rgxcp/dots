@@ -2,12 +2,12 @@
 
 RED="\e[31m"
 WHITE="\e[0m"
-PD=$HOME/Projects/dots/scripts
+SD=$HOME/Projects/dots/scripts
 
 invalid_option () {
-    echo -e "${RED}ERROR: Invalid option.${WHITE}"
+    echo -e "${RED}[!] Invalid option.${WHITE}"
     echo ""
-    $PD/interactive_menu.sh
+    $SD/interactive_menu.sh
 }
 
 main () {
@@ -20,11 +20,11 @@ main () {
     echo ""
 
     case $CHOICE in
-        "1") $PD/backup_config.sh;;
-        "2") $PD/configure_system.sh;;
-        "3") $PD/replace_config.sh;;
-        "4") $PD/sync_color_scheme.sh;;
-        "5") $PD/system_update.sh;;
+        "1") $SD/backup_config.sh;;
+        "2") $SD/configure_system.sh;;
+        "3") $SD/replace_config.sh;;
+        "4") $SD/sync_color_scheme.sh;;
+        "5") $SD/system_update.sh;;
         "" | *) invalid_option;;
     esac
 }

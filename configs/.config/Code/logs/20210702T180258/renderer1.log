@@ -1,1 +1,0 @@
-[2021-07-02 18:11:12.061] [renderer1] [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/northern/Projects/dots/text.txt' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/northern/Projects/dots/text.txt') file:///home/northern/Projects/dots/text.txt

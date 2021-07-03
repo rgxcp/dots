@@ -1,9 +1,0 @@
-[2021-07-02 08:33:05.411] [main] [info] update#setState idle
-[2021-07-02 08:33:35.413] [main] [info] update#setState checking for updates
-[2021-07-02 08:33:35.445] [main] [info] update#setState idle
-[2021-07-02 08:38:07.738] [main] [error] Error: Unable to write file '/home/northern/.config/Code/storage.json' (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/home/northern/.config/Code')
-    at l.writeFile (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:32:16641)
-    at async i.doSave (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:58:11929)
-[2021-07-02 08:38:07.965] [main] [error] Error: Unable to write file '/home/northern/.config/Code/storage.json' (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/home/northern/.config/Code')
-    at l.writeFile (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:32:16641)
-    at async i.doSave (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:58:11929)
