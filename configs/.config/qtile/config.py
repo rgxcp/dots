@@ -81,6 +81,7 @@ keys = [
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     Key([mod], "Tab", lazy.screen.togglegroup(), desc="Switch window back and forth"),
     Key([mod], "0", lazy.spawn("./.config/polybar/colorblocks/scripts/powermenu.sh"), desc="Launch power menu"),
+    Key([mod], "c", lazy.spawn("./.config/rofi/edit_config.sh"), desc="Launch edit config launcher"),
     Key([mod], "d", lazy.spawn("./.config/rofi/launchers/colorful/launcher.sh"), desc="Launch menu launcher"),
     Key([mod, "shift"], "b", lazy.spawn("firefox"), desc="Launch browser"),
     Key([mod, "shift"], "v", lazy.spawn("code"), desc="Launch text editor"),
