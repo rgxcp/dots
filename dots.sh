@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ARG=$1
+ARGS=($@)
 SD=$HOME/Projects/dots/scripts
 
 main () {
@@ -11,14 +11,15 @@ main () {
     echo "║          v1.0.0           ║"
     echo "╚═══════════════════════════╝"
 
-    case $ARG in
+    case ${ARGS[0]} in
+        "-ac") $SD/add_config.sh ${ARGS[1]};;
         "-bc") $SD/backup_config.sh;;
         "-cs") $SD/configure_system.sh;;
         "-rc") $SD/replace_config.sh;;
-        #"-scs") $SD/sync_color_scheme.sh;;
+        "-rmc") $SD/remove_config.sh ${ARGS[1]};;
+        "-scs") $SD/sync_color_scheme.sh;;
         "-su") $SD/system_update.sh;;
-        "") $SD/interactive_menu.sh;;
-        *) $SD/unknown_command.sh;;
+        ""|*) $SD/unknown_command.sh;;
     esac
 }
 

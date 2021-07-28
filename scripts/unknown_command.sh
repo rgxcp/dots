@@ -5,9 +5,16 @@ WHITE="\e[0m"
 SD=$HOME/Projects/dots/scripts
 
 main () {
-    echo -e "${RED}[!] Unknown command.${WHITE}"
-    echo ""
-    $SD/interactive_menu.sh
+echo -e "${RED}[!] Unknown command.${WHITE}"
+cat << EOF
+usage: ./dots.sh [-ac PATH]  - Add config
+                 [-bc]       - Backup config
+                 [-cs]       - Configure system
+                 [-rc]       - Replace config
+                 [-rmc PATH] - Remove config
+                 [-scs]      - Sync color scheme
+                 [-su]       - System update
+EOF
 }
 
 main

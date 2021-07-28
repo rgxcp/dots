@@ -8,7 +8,7 @@
 
 RICING
 
-## Requirements
+## Requirement(s)
 
 1. Bash
 
@@ -24,68 +24,95 @@ RICING
    ```
 3. Run the script.
    ```bash
-   bash dots.sh
+   ./dots.sh
    ```
 4. Do-what-you-want-with-it!
 
-## Packages
+## Essential Packages
 
-### Standard Packages
+### Pacman
 
-| Name                         | Description                    |
-| ---------------------------- | ------------------------------ |
-| alacritty                    | Terminal emulator              |
-| alsa-utils                   | Sound management               |
-| arc-gtk-theme                | GTK theme                      |
-| base-devel                   | Development purposes package   |
-| blueberry                    | Bluetooth management           |
-| chntpw                       | Dual boot bluetooth management |
-| dolphin                      | File manager                   |
-| dosfstools                   | Drive formatter                |
-| dunst                        | Notification system            |
-| efibootmgr                   | Boot manager                   |
-| firefox                      | Web browser                    |
-| git                          | Version control                |
-| grub                         | Boot loader                    |
-| htop                         | Resource management            |
-| lightdm                      | Display manager                |
-| lightdm-gtk-greeter          | LightDM theme                  |
-| lightdm-gtk-greeter-settings | LightDM theme settings         |
-| lxappearance                 | Theme management               |
-| nano                         | CLI text editor                |
-| neofetch                     | Screen fetch                   |
-| networkmanager               | Network management             |
-| nitrogen                     | Wallpaper management           |
-| ntfs-3g                      | NTFS partition management      |
-| nvidia                       | NVIDIA graphic card driver     |
-| os-prober                    | Multi boot management          |
-| papirus-icon-theme           | Icons                          |
-| pcmanfm                      | File manager                   |
-| picom                        | Compositor                     |
-| python-pywal                 | Color schemes generator        |
-| qbittorrent                  | Torrent client                 |
-| qtile                        | Window manager                 |
-| rofi                         | Menu launcher                  |
-| starship                     | Shell prompt                   |
-| vlc                          | Video player                   |
-| xf86-video-intel             | Intel graphic card driver      |
-| xorg                         | Display server                 |
-| xorg-xinit                   | Display server init system     |
-| youtube-dl                   | YouTube downloader             |
-| zsh                          | Shell                          |
+| Name                         | Description                  |
+| ---------------------------- | ---------------------------- |
+| alacritty                    | Terminal emulator            |
+| alsa-utils                   | Sound manager                |
+| arc-gtk-theme                | GTK theme                    |
+| base-devel                   | Development purposes package |
+| blueberry                    | Bluetooth manager            |
+| chntpw                       | Dual boot bluetooth manager  |
+| dolphin                      | File manager                 |
+| dosfstools                   | Drive formatter              |
+| dunst                        | Notification system          |
+| efibootmgr                   | Boot manager                 |
+| firefox                      | Web browser                  |
+| git                          | Version control              |
+| gnome-keyring                | Application keyring          |
+| grub                         | Boot loader                  |
+| htop                         | Resource manager             |
+| i3-gaps                      | Window manager               |
+| lightdm                      | Display manager              |
+| lightdm-gtk-greeter          | LightDM theme                |
+| lightdm-gtk-greeter-settings | LightDM theme settings       |
+| lxappearance                 | Theme manager                |
+| nano                         | CLI text editor              |
+| neofetch                     | Screen fetch                 |
+| networkmanager               | Network manager              |
+| nitrogen                     | Wallpaper manager            |
+| ntfs-3g                      | NTFS partition manager       |
+| nvidia                       | NVIDIA graphic card driver   |
+| os-prober                    | Multi boot manager           |
+| papirus-icon-theme           | Icons                        |
+| pcmanfm                      | File manager                 |
+| picom                        | Compositor                   |
+| playerctl                    | Media player controller      |
+| python-pywal                 | Color schemes generator      |
+| qbittorrent                  | Torrent client               |
+| rofi                         | Menu launcher                |
+| scrot                        | Screenshot manager           |
+| starship                     | Shell prompt                 |
+| ttf-fira-code                | Fonts                        |
+| vlc                          | Video player                 |
+| xf86-video-intel             | Intel graphic card driver    |
+| xorg                         | Display server               |
+| xorg-xinit                   | Display server init system   |
+| youtube-dl                   | YouTube downloader           |
+| zsh                          | Shell                        |
+| zsh-autosuggestions          | Zsh autosuggestions          |
+| zsh-syntax-highlighting      | Zsh syntax highlighting      |
 
-### AUR Packages
+### AUR
 
-| Name                   | Description     |
-| ---------------------- | --------------- |
-| betterlockscreen       | Lock screen     |
-| polybar                | Status bar      |
-| spotify                | Music streamer  |
-| ttf-iosevka            | Fonts           |
-| visual-studio-code-bin | GUI text editor |
+| Name                     | Description              |
+| ------------------------ | ------------------------ |
+| betterlockscreen         | Lock screen              |
+| networkmanager-dmenu-git | Network manager launcher |
+| polybar                  | Status bar               |
+| spotify                  | Music streamer           |
+| ttf-iosevka              | Fonts                    |
+| visual-studio-code-bin   | GUI text editor          |
 
-## Themes & Configurations
+## Non Essential Packages
 
+### Pacman
+
+| Name       |
+| ---------- |
+| ansible    |
+| mariadb    |
+| vagrant    |
+| virtualbox |
+
+### AUR
+
+| Name           |
+| -------------- |
+| rbenv-git      |
+| ruby-build-git |
+| zoom           |
+
+## Themes
+
+- [Cursors](https://github.com/vinceliuice/Vimix-cursors)
 - [GRUB](https://github.com/vinceliuice/grub2-themes#vimix-grub-theme)
 - [Polybar](https://github.com/adi1090x/polybar-themes#colorblocks)
 - [Rofi](https://github.com/adi1090x/rofi#colorful)
