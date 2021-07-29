@@ -94,5 +94,15 @@ case $chosen in
         #else
 		#	msg
         #fi
+		if [[ "$DESKTOP_SESSION" == "qtile" ]]
+		then
+			qtile cmd-obj -o cmd -f shutdown
+		elif [[ "$DESKTOP_SESSION" == "i3" ]]
+		then
+			i3-msg exit
+		elif [[ "$DESKTOP_SESSION" == "bspwm" ]]
+		then
+			bspc quit
+		fi
         ;;
 esac

@@ -1,10 +1,15 @@
+# |=================|
+# | DOTS - STARSHIP |
+# |=================|
+
 add_newline = false
 
 [line_break]
 disabled = true
 
 [character]
-success_symbol = "[➜](green)"
+success_symbol = "[→ ](green)"
+error_symbol = "[→ ](red)"
 
 # Disable the package module, hiding it from the prompt completely
 [package]

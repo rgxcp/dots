@@ -1,3 +1,7 @@
+# |===========================|
+# | DOTS - BETTER LOCK SCREEN |
+# |===========================|
+
 # configuration file for betterlockscreen
 
 insidecolor=00000000
@@ -6,7 +10,7 @@ keyhlcolor=A5D6A7FF
 bshlcolor=A5D6A7FF
 separatorcolor=00000000
 insidevercolor=00000000
-insidewrongcolor=A5D6A7FF
+insidewrongcolor=EF9A9AFF
 ringvercolor=ffffffff
 ringwrongcolor=ffffffff
 verifcolor=ffffffff

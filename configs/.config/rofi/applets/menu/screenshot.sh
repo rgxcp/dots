@@ -17,31 +17,31 @@ msg() {
 
 # Options
 screen=""
-area=""
 window=""
+area=""
 
 # Variable passed to rofi
-options="$screen\n$area\n$window"
+options="$screen\n$window\n$area"
 
 chosen="$(echo -e "$options" | $rofi_command -p 'App : scrot' -dmenu -selected-row 1)"
 case $chosen in
     $screen)
 		if [[ -f /usr/bin/scrot ]]; then
-			sleep 1; scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
-		else
-			msg
-		fi
-        ;;
-    $area)
-		if [[ -f /usr/bin/scrot ]]; then
-			scrot -s 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
+			sleep 1; scrot 'Screenshot_%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
 		else
 			msg
 		fi
         ;;
     $window)
 		if [[ -f /usr/bin/scrot ]]; then
-			sleep 1; scrot -u 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
+			sleep 1; scrot -u 'Screenshot_%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
+		else
+			msg
+		fi
+        ;;
+    $area)
+		if [[ -f /usr/bin/scrot ]]; then
+			scrot -s 'Screenshot_%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
 		else
 			msg
 		fi

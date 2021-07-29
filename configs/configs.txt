@@ -1,0 +1,17 @@
+Alacritty:/home/northern/.config/alacritty:/home/northern/.config/alacritty/alacritty.yml
+Better Lock Screen:/home/northern/.config/betterlockscreenrc:/home/northern/.config/betterlockscreenrc
+Dolphin:/home/northern/.config/dolphinrc:/home/northern/.config/dolphinrc
+Dunst:/home/northern/.config/dunst:/home/northern/.config/dunst/dunstrc
+GTK 2:/home/northern/.config/gtk-2.0:/home/northern/.config/gtk-2.0/gtkfilechooser.ini
+GTK 3:/home/northern/.config/gtk-3.0:/home/northern/.config/gtk-3.0/settings.ini
+i3:/home/northern/.config/i3:/home/northern/.config/i3/config
+Neofetch:/home/northern/.config/neofetch:/home/northern/.config/neofetch/config.conf
+Network Manager:/home/northern/.config/networkmanager-dmenu:/home/northern/.config/networkmanager-dmenu/config.ini
+PCManFM:/home/northern/.config/pcmanfm:/home/northern/.config/pcmanfm/default/pcmanfm.conf
+Picom:/home/northern/.config/picom:/home/northern/.config/picom/picom.conf
+Polybar:/home/northern/.config/polybar:/home/northern/.config/polybar
+qBittorrent:/home/northern/.config/qBittorrent:/home/northern/.config/qBittorrent/qBittorrent.conf
+Rofi:/home/northern/.config/rofi:/home/northern/.config/rofi
+Starship:/home/northern/.config/starship.toml:/home/northern/.config/starship.toml
+Xresources:/home/northern/.Xresources:/home/northern/.Xresources
+Zsh:/home/northern/.zshrc:/home/northern/.zshrc
