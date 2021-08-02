@@ -90,6 +90,7 @@ RICING
 | spotify                  | Music streamer           |
 | ttf-iosevka              | Fonts                    |
 | visual-studio-code-bin   | GUI text editor          |
+| xdman                    | Download manager         |
 
 ## Non Essential Packages
 

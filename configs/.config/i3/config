@@ -83,19 +83,16 @@ workspace_auto_back_and_forth yes
 # |=======| | FIX
 # | Rules |
 # |=======|
-# Default to floating layout window | FIX
-# for_window [title=""] floating enable border pixel $bwf resize set 1000 800
-# for_window [title="File Transfer*"] floating enable border pixel $bwf
+# Default to floating layout window
+for_window [class="xdman-Main"] floating enable border pixel $bwt resize set 960 540
+
+# Application workspace
 assign [class="firefox"] $ws1
 assign [class="Code"] $ws2
 assign [class="zoom"] $ws4
-# for_window [instance="alsamixer"] 2
 
 # Focus to urgent window automatically
 for_window [urgent=latest] focus
-for_window [title="Open File"] move absolute position center
-
-bindsym $sup+z move absolute position center
 
 # |=============| | FIX
 # | Keybindings |
@@ -173,12 +170,12 @@ bindsym Ctrl+$alt+s exec --no-startup-id systemctl poweroff
 bindsym Ctrl+$alt+z exec --no-startup-id systemctl suspend
 
 # Brightness
-bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/.config/i3/raise_brightness.sh
-bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/.config/i3/lower_brightness.sh
+bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/Projects/scripts/raise_brightness.sh
+bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/Projects/scripts/lower_brightness.sh
 
 # Volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/.config/i3/raise_volume.sh
-bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/.config/i3/lower_volume.sh
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
@@ -202,4 +199,5 @@ bindsym $sup+Shift+f exec --no-startup-id pcmanfm
 bindsym $sup+Shift+q exec --no-startup-id qbittorrent
 bindsym $sup+Shift+s workspace number $ws9; exec --no-startup-id spotify
 bindsym $sup+Shift+v exec --no-startup-id code
-bindsym $sup+Shift+z exec --no-startup-id zoom; layout tabbed
+bindsym $sup+Shift+z exec --no-startup-id zoom
+bindsym $sup+Shift+z exec --no-startup-id xdman
