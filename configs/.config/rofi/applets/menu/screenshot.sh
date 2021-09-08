@@ -17,24 +17,17 @@ msg() {
 
 # Options
 screen=""
-window=""
 area=""
+window=""
 
 # Variable passed to rofi
-options="$screen\n$window\n$area"
+options="$screen\n$area\n$window"
 
 chosen="$(echo -e "$options" | $rofi_command -p 'App : scrot' -dmenu -selected-row 1)"
 case $chosen in
     $screen)
 		if [[ -f /usr/bin/scrot ]]; then
 			sleep 1; scrot 'Screenshot_%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
-		else
-			msg
-		fi
-        ;;
-    $window)
-		if [[ -f /usr/bin/scrot ]]; then
-			sleep 1; scrot -u 'Screenshot_%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
 		else
 			msg
 		fi
@@ -46,5 +39,11 @@ case $chosen in
 			msg
 		fi
         ;;
+    $window)
+		if [[ -f /usr/bin/scrot ]]; then
+			sleep 1; scrot -u 'Screenshot_%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
+		else
+			msg
+		fi
+        ;;
 esac
-

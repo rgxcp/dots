@@ -54,8 +54,8 @@ RICING
 | lightdm-gtk-greeter          | LightDM theme                |
 | lightdm-gtk-greeter-settings | LightDM theme settings       |
 | lxappearance                 | Theme manager                |
-| nano                         | CLI text editor              |
 | neofetch                     | Screen fetch                 |
+| neovim                       | CLI text editor              |
 | networkmanager               | Network manager              |
 | nitrogen                     | Wallpaper manager            |
 | ntfs-3g                      | NTFS partition manager       |
@@ -73,6 +73,7 @@ RICING
 | ttf-fira-code                | Fonts                        |
 | vlc                          | Video player                 |
 | xf86-video-intel             | Intel graphic card driver    |
+| xfce4-power-manager          | Power manager                |
 | xorg                         | Display server               |
 | xorg-xinit                   | Display server init system   |
 | youtube-dl                   | YouTube downloader           |
@@ -96,12 +97,15 @@ RICING
 
 ### Pacman
 
-| Name       |
-| ---------- |
-| ansible    |
-| mariadb    |
-| vagrant    |
-| virtualbox |
+| Name        |
+| ----------- |
+| ansible     |
+| mariadb     |
+| node        |
+| postman-bin |
+| vagrant     |
+| virtualbox  |
+| yarn        |
 
 ### AUR
 

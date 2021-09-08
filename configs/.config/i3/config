@@ -8,6 +8,7 @@
 # exec --no-startup-id xrdb -merge $HOME/.Xresources &
 exec --no-startup-id nitrogen --restore &
 exec --no-startup-id picom &
+exec --no-startup-id xfce4-power-manager &
 exec --no-startup-id $HOME/.config/polybar/launch.sh --colorblocks &
 
 # |===========|
@@ -193,11 +194,12 @@ bindsym $sup+r exec --no-startup-id alacritty -e htop
 bindsym $sup+s exec --no-startup-id $HOME/.config/rofi/applets/menu/screenshot.sh
 bindsym $sup+0 exec --no-startup-id $HOME/.config/polybar/colorblocks/scripts/powermenu.sh
 bindsym $sup+Return exec --no-startup-id alacritty
-bindsym $sup+Shift+b exec --no-startup-id firefox; workspace number $ws1
+bindsym $sup+Shift+b exec --no-startup-id firefox
 bindsym $sup+Shift+d exec --no-startup-id dolphin
 bindsym $sup+Shift+f exec --no-startup-id pcmanfm
+bindsym $sup+Shift+p exec --no-startup-id postman
 bindsym $sup+Shift+q exec --no-startup-id qbittorrent
 bindsym $sup+Shift+s workspace number $ws9; exec --no-startup-id spotify
 bindsym $sup+Shift+v exec --no-startup-id code
+bindsym $sup+Shift+x exec --no-startup-id xdman
 bindsym $sup+Shift+z exec --no-startup-id zoom
-bindsym $sup+Shift+z exec --no-startup-id xdman
