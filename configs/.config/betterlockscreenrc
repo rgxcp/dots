@@ -5,17 +5,17 @@
 # configuration file for betterlockscreen
 
 insidecolor=00000000
-ringcolor=ffffffff
-keyhlcolor=A5D6A7FF
-bshlcolor=A5D6A7FF
+ringcolor=FFFFFFFF
+keyhlcolor=212121FF
+bshlcolor=212121FF
 separatorcolor=00000000
 insidevercolor=00000000
-insidewrongcolor=EF9A9AFF
-ringvercolor=ffffffff
-ringwrongcolor=ffffffff
-verifcolor=ffffffff
-timecolor=ffffffff
-datecolor=ffffffff
+insidewrongcolor=F44336FF
+ringvercolor=FFFFFFFF
+ringwrongcolor=FFFFFFFF
+verifcolor=FFFFFFFF
+timecolor=FFFFFFFF
+datecolor=FFFFFFFF
 loginbox=00000066
 font="Iosevka Nerd Font:pixelsize=10;4"
 locktext='Type password to unlock...'

@@ -19,4 +19,4 @@
  *
  */
 
-@import "material-dark/green.rasi"
+@import "material-dark/grey.rasi"

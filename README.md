@@ -70,7 +70,9 @@ RICING
 | rofi                         | Menu launcher                |
 | scrot                        | Screenshot manager           |
 | starship                     | Shell prompt                 |
+| tig                          | Git text-mode interface      |
 | ttf-fira-code                | Fonts                        |
+| unzip                        | `.zip` files extractor       |
 | vlc                          | Video player                 |
 | xf86-video-intel             | Intel graphic card driver    |
 | xfce4-power-manager          | Power manager                |
@@ -101,7 +103,8 @@ RICING
 | ----------- |
 | ansible     |
 | mariadb     |
-| node        |
+| nodejs      |
+| npm         |
 | postman-bin |
 | vagrant     |
 | virtualbox  |

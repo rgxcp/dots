@@ -49,11 +49,11 @@ set $ws9 "9"
 # |===============|
 # | Color Schemes |
 # |===============|
-client.focused #81C784 #141C21 #81C784 #81C784 #81C784
-client.focused_inactive #81C784 #141C21 #F5F5F5 #1B5E20 #1B5E20
-client.unfocused #81C784 #141C21 #F5F5F5 #81C784 #1B5E20
-client.urgent #E57373 #141C21 #E57373 #E57373 #E57373
-client.placeholder #E57373 #141C21 #E57373 #E57373 #E57373
+client.focused #A6A6A6 #141C21 #A6A6A6 #A6A6A6 #A6A6A6
+client.focused_inactive #A6A6A6 #141C21 #F5F5F5 #212121 #212121
+client.unfocused #A6A6A6 #141C21 #F5F5F5 #A6A6A6 #212121
+client.urgent #F44336 #141C21 #F44336 #F44336 #F44336
+client.placeholder #F44336 #141C21 #F44336 #F44336 #F44336
 client.background #F5F5F5
 
 # |======|
