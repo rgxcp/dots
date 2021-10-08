@@ -10,12 +10,12 @@ bison 3.8.1-1
 blueberry 1.4.4-1
 chntpw 140201-4
 dialog 1:1.3_20210621-1
-dolphin 21.08.1-1
+dolphin 21.08.2-1
 dosfstools 4.2-1
 dunst 1.6.1-2
 efibootmgr 17-2
 fakeroot 1.26-1
-firefox 92.0.1-1
+firefox 93.0-1
 flex 2.6.4-3
 gcc 11.1.0-1
 git 2.33.0-1
@@ -39,7 +39,7 @@ neovim 0.5.1-1
 networkmanager 1.32.12-1
 nitrogen 1.6.1-4
 nodejs 16.10.0-1
-npm 7.24.1-1
+npm 7.24.2-1
 ntfs-3g 2021.8.22-1
 nvidia 470.74-5
 os-prober 1.79-1
@@ -61,6 +61,7 @@ ttf-fira-code 5.2-1
 unzip 6.0-14
 vagrant 2.2.18-1
 virtualbox 6.1.26-1
+visual-studio-code-bin 1.60.2-1
 vlc 3.0.16-3
 which 2.21-5
 xf86-video-intel 1:2.99.917+916+g31486f40-1
