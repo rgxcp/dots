@@ -99,16 +99,18 @@ RICING
 
 ### Pacman
 
-| Name        |
-| ----------- |
-| ansible     |
-| mariadb     |
-| nodejs      |
-| npm         |
-| postman-bin |
-| vagrant     |
-| virtualbox  |
-| yarn        |
+| Name           |
+| -------------- |
+| ansible        |
+| docker         |
+| docker-compose |
+| mariadb        |
+| nodejs         |
+| npm            |
+| postman-bin    |
+| vagrant        |
+| virtualbox     |
+| yarn           |
 
 ### AUR
 
