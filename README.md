@@ -104,6 +104,7 @@ RICING
 | ansible        |
 | docker         |
 | docker-compose |
+| gitlab-runner  |
 | mariadb        |
 | nodejs         |
 | npm            |

@@ -28,31 +28,32 @@ setopt HIST_SAVE_NO_DUPS
 eval "$(rbenv init - zsh)"
 # Starship
 eval "$(starship init zsh)"
-# Travis
-[ ! -s $HOME/.travis/travis.sh ] || source $HOME/.travis/travis.sh
 
 # |=========|
 # | Aliases |
 # |=========|
 alias ..="cd .."
+alias c="clear"
 alias checkpoint="$HOME/Projects/checkpoint/checkpoint.sh"
+alias db="mysql -u northern -p"
 alias dots="$HOME/Projects/dots/dots.sh"
+alias e="exit"
 alias free="free -h"
 alias ga="git add"
-alias gaa="git add ."
-alias gc="git commit -s"
+alias gaa="git add -A"
+alias gc="git commit -s -m"
 alias gi="git init"
-alias gl="git log"
-alias glo="git log --oneline"
-alias gpom="git push -u origin master"
-alias gr="git restore --staged"
-alias gra="git restore --staged ."
+alias gl="tig"
+alias gpom="git push -u origin main"
+alias gr="git restore --S"
 alias grao="git remote add origin"
 alias gs="git status"
 alias ls="ls --color --group-directories-first -lahv"
-alias mariadb-shell="$HOME/Projects/scripts/mariadb.sh"
-alias mariadb-start="sudo systemctl start mariadb"
 alias open="xdg-open"
+alias start="sudo systemctl start"
+alias status="sudo systemctl status"
+alias stop="sudo systemctl stop"
+alias test="bundle exec rspec -fd"
 alias v="nvim"
 
 # |========|
