@@ -117,6 +117,7 @@ RICING
 
 | Name           |
 | -------------- |
+| cronie         |
 | rbenv-git      |
 | ruby-build-git |
 | zoom           |

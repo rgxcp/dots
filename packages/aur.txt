@@ -5,9 +5,9 @@ polybar 3.5.7-1
 postman-bin 9.1.3-1
 rbenv-git 1.1.2.r61.585ed84-1
 ruby-build-git v20210611.r1.g1b477ae-1
-spotify 1:1.1.68.632-1
-ttf-iosevka 11.0.0-1
-visual-studio-code-bin 1.62.0-1
+spotify 1:1.1.72.439-1
+ttf-iosevka 11.0.1-1
+visual-studio-code-bin 1.62.3-1
 xdman 2020.7.2.11-2
 yay 11.0.2-1
-zoom 5.8.3-1
+zoom 5.8.4-1
