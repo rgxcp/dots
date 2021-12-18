@@ -102,12 +102,15 @@ RICING
 | Name           |
 | -------------- |
 | ansible        |
+| cronie         |
 | docker         |
 | docker-compose |
 | gitlab-runner  |
+| go             |
 | mariadb        |
 | nodejs         |
 | npm            |
+| postgresql     |
 | postman-bin    |
 | vagrant        |
 | virtualbox     |
@@ -117,7 +120,6 @@ RICING
 
 | Name           |
 | -------------- |
-| cronie         |
 | rbenv-git      |
 | ruby-build-git |
 | zoom           |
