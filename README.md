@@ -79,6 +79,7 @@ RICING
 | xorg                         | Display server               |
 | xorg-xinit                   | Display server init system   |
 | youtube-dl                   | YouTube downloader           |
+| zip                          | `.zip` files compressor      |
 | zsh                          | Shell                        |
 | zsh-autosuggestions          | Zsh autosuggestions          |
 | zsh-syntax-highlighting      | Zsh syntax highlighting      |

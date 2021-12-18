@@ -53,7 +53,7 @@ alias open="xdg-open"
 alias start="sudo systemctl start"
 alias status="sudo systemctl status"
 alias stop="sudo systemctl stop"
-alias test="bundle exec rspec -fd"
+alias test="bundle exec rspec"
 alias v="nvim"
 
 # |========|
