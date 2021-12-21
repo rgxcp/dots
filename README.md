@@ -1,4 +1,4 @@
-# Bash - Dots
+# 🐧 Bash - Dots
 
 **EN**: GNU/Linux personal configuration & automation system.
 
