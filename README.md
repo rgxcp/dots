@@ -1,8 +1,6 @@
-# 🐧 Bash - Dots
+# 🐧 Dots
 
-**EN**: GNU/Linux personal configuration & automation system.
-
-**ID**: Konfigurasi personal & sistem otomatisasi GNU/Linux.
+GNU/Linux personal configuration & automation system.
 
 ## Status
 
