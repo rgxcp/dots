@@ -2,11 +2,11 @@ betterlockscreen 4.0.3-2
 i3lock-color 2.13.c.4-1
 networkmanager-dmenu-git r153.da15351-1
 polybar 3.5.7-2
-postman-bin 9.8.2-1
+postman-bin 9.8.3-1
 rbenv-git 1.1.2.r61.585ed84-1
 ruby-build-git v20211203-1
 spotify 1:1.1.72.439-3
-ttf-iosevka 11.2.3-1
+ttf-iosevka 11.2.6-1
 visual-studio-code-bin 1.63.2-1
 xdman 2020.7.2.11-2
 yay 11.1.0-1
