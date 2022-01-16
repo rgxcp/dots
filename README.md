@@ -111,6 +111,7 @@ RICING
 | npm            |
 | postgresql     |
 | postman-bin    |
+| redis          |
 | vagrant        |
 | virtualbox     |
 | yarn           |
