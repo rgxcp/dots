@@ -170,6 +170,10 @@ bindsym Ctrl+$alt+r exec --no-startup-id systemctl reboot
 bindsym Ctrl+$alt+s exec --no-startup-id systemctl poweroff
 bindsym Ctrl+$alt+z exec --no-startup-id systemctl suspend
 
+# Notification
+bindsym Ctrl+space exec --no-startup-id dunstctl close
+bindsym Ctrl+Shift+space exec --no-startup-id dunstctl close-all
+
 # Brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/Projects/scripts/raise_brightness.sh
 bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/Projects/scripts/lower_brightness.sh
