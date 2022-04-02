@@ -164,7 +164,7 @@ bindsym $sup+space focus mode_toggle
 # System
 bindsym $sup+Ctrl+c reload; exec --no-startup-id notify-send -u low -t 1500 "Config Restarted"
 bindsym $sup+Ctrl+r restart
-bindsym Ctrl+$alt+l exec --no-startup-id betterlockscreen -l blur
+bindsym Ctrl+$alt+l exec --no-startup-id betterlockscreen -l dim
 bindsym Ctrl+$alt+q exec --no-startup-id i3-msg exit
 bindsym Ctrl+$alt+r exec --no-startup-id systemctl reboot
 bindsym Ctrl+$alt+s exec --no-startup-id systemctl poweroff
