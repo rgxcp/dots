@@ -88,14 +88,14 @@ main () {
         then
             echo -e "${GREEN}[i] Adding config.${WHITE}"
             echo "$CONFIG_NAME:$CONFIG_PATH:$CONFIG_PATH/$EXECUTABLE_FILE" >> $CD/configs.txt
-            # sed -i "s|$HOME|\$HOME|g" $CD/configs.txt
+            # sed -i "s|$(echo $HOME)|\$HOME|g" $CD/configs.txt
             sort $CD/configs.txt -o $CD/configs.txt
             cp -r $CONFIG_PATH $COPY_LOCATION
             configure_rofi
         else
             echo -e "${GREEN}[i] Adding config.${WHITE}"
             echo "$CONFIG_NAME:$CONFIG_PATH:$CONFIG_PATH" >> $CD/configs.txt
-            # sed -i "s|$HOME|\$HOME|g" $CD/configs.txt
+            # sed -i "s|$(echo $HOME)|\$HOME|g" $CD/configs.txt
             sort $CD/configs.txt -o $CD/configs.txt
             cp -r $CONFIG_PATH $COPY_LOCATION
             configure_rofi
@@ -103,7 +103,7 @@ main () {
     else
         echo -e "${GREEN}[i] Adding config.${WHITE}"
         echo "$CONFIG_NAME:$CONFIG_PATH:$CONFIG_PATH" >> $CD/configs.txt
-        # sed -i "s|$HOME|\$HOME|g" $CD/configs.txt
+        # sed -i "s|$(echo $HOME)|\$HOME|g" $CD/configs.txt
         sort $CD/configs.txt -o $CD/configs.txt
         cp $CONFIG_PATH $COPY_LOCATION
         configure_rofi
