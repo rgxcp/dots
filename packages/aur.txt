@@ -1,6 +1,6 @@
 betterlockscreen 4.0.3-2
-google-chrome 100.0.4896.75-1
-google-cloud-sdk 380.0.0-1
+google-chrome 100.0.4896.127-1
+google-cloud-sdk 381.0.0-1
 i3lock-color 2.13.c.4-1
 networkmanager-dmenu-git r153.da15351-1
 polybar 3.6.2-1
@@ -10,8 +10,8 @@ ruby-build-git v20211203-1
 slack-desktop 4.25.1-1
 spotify 1:1.1.80.699-1
 stoplight-studio-appimage 2.8.0-5
-ttf-iosevka 15.1.0-1
-visual-studio-code-bin 1.66.1-1
+ttf-iosevka 15.2.0-1
+visual-studio-code-bin 1.66.2-2
 xdman 2020.7.2.11-2
 yay 11.1.2-1
-zoom 5.10.0-1
+zoom 5.10.3-1
