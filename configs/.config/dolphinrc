@@ -9,6 +9,10 @@ Places Icons Static Size=22
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
+eDP1 HDMI2 Height 1920x1080=1000
+eDP1 HDMI2 Width 1920x1080=1888
+eDP1 HDMI2 XPosition 1920x1080=16
+eDP1 HDMI2 YPosition 1920x1080=15
 eDP1 Height 1920x1080=1000
 eDP1 Width 1920x1080=1888
 eDP1 XPosition 1920x1080=16

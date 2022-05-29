@@ -69,6 +69,7 @@ RICING
 | scrot                        | Screenshot manager           |
 | starship                     | Shell prompt                 |
 | tig                          | Git text-mode interface      |
+| tmux                         | Terminal multiplexer         |
 | ttf-fira-code                | Fonts                        |
 | unzip                        | `.zip` files extractor       |
 | vlc                          | Video player                 |
