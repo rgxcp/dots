@@ -53,6 +53,9 @@ alias grao="git remote add origin"
 alias gs="git status"
 alias ls="ls --color --group-directories-first -lahv"
 alias open="xdg-open"
+alias pinstall="sudo pacman -S"
+alias psearch="sudo pacman -Ss"
+alias pupdate="sudo pacman -Syy"
 alias start="sudo systemctl start"
 alias status="sudo systemctl status"
 alias stop="sudo systemctl stop"
@@ -62,6 +65,10 @@ alias v="nvim"
 # |========|
 # | Addons |
 # |========|
+# Fzf
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+# Zsh
 # Auto Suggestion
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Syntax Highlighting

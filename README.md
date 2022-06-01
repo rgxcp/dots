@@ -43,6 +43,7 @@ RICING
 | dunst                        | Notification system          |
 | efibootmgr                   | Boot manager                 |
 | firefox                      | Web browser                  |
+| fzf                          | Fuzzy finder                 |
 | git                          | Version control              |
 | gnome-keyring                | Application keyring          |
 | grub                         | Boot loader                  |
