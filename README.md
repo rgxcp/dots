@@ -53,6 +53,7 @@ RICING
 | lightdm-gtk-greeter          | LightDM theme                |
 | lightdm-gtk-greeter-settings | LightDM theme settings       |
 | lxappearance                 | Theme manager                |
+| lxrandr-gtk3                 | GUI display-output manager   |
 | neofetch                     | Screen fetch                 |
 | neovim                       | CLI text editor              |
 | networkmanager               | Network manager              |
@@ -61,6 +62,7 @@ RICING
 | nvidia                       | NVIDIA graphic card driver   |
 | os-prober                    | Multi boot manager           |
 | papirus-icon-theme           | Icons                        |
+| pavucontrol                  | GUI audio manager            |
 | pcmanfm                      | File manager                 |
 | picom                        | Compositor                   |
 | playerctl                    | Media player controller      |
@@ -109,6 +111,7 @@ RICING
 | docker-compose |
 | gitlab-runner  |
 | go             |
+| hugo           |
 | mariadb        |
 | nodejs         |
 | npm            |

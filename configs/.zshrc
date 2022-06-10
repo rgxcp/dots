@@ -44,6 +44,7 @@ alias ga="git add"
 alias gaa="git add -A"
 alias gc="git commit -s -m"
 alias gco="git checkout"
+alias gd="git diff"
 alias gi="git init && touch README.md && touch LICENSE"
 alias gl="tig"
 alias gpull="git pull origin main"
@@ -61,14 +62,16 @@ alias status="sudo systemctl status"
 alias stop="sudo systemctl stop"
 alias test="bundle exec rspec"
 alias v="nvim"
+alias vc="nvim ~/.config/nvim/init.vim"
+alias vim="nvim"
 
 # |========|
 # | Addons |
 # |========|
-# Fzf
+# FZF
 source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
-# Zsh
+# ZSH
 # Auto Suggestion
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Syntax Highlighting

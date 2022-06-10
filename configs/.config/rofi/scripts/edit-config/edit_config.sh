@@ -18,6 +18,8 @@ polybar="Polybar"
 qbittorrent="qBittorrent"
 rofi="Rofi"
 starship="Starship"
+tmux="Tmux"
+vim="Vim"
 xresources="Xresources"
 zsh="Zsh"
 
@@ -37,6 +39,8 @@ OPTIONS=(
 	$qbittorrent
 	$rofi
 	$starship
+	$tmux
+	$vim
 	$xresources
 	$zsh
 )
@@ -58,6 +62,8 @@ case $CHOSEN in
 	$qbittorrent) code /home/northern/.config/qBittorrent/qBittorrent.conf;;
 	$rofi) code /home/northern/.config/rofi;;
 	$starship) code /home/northern/.config/starship.toml;;
+	$tmux) code /home/northern/.tmux.conf;;
+	$vim) code /home/northern/.config/nvim/init.vim;;
 	$xresources) code /home/northern/.Xresources;;
 	$zsh) code /home/northern/.zshrc;;
 esac
