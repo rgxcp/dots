@@ -74,6 +74,7 @@ RICING
 | tig                          | Git text-mode interface      |
 | tmux                         | Terminal multiplexer         |
 | ttf-fira-code                | Fonts                        |
+| unrar                        | `.rar` files extractor       |
 | unzip                        | `.zip` files extractor       |
 | vlc                          | Video player                 |
 | xclip                        | Clipboard manager            |
