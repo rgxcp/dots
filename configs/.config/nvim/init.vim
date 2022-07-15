@@ -3,14 +3,14 @@ set nowrap
 set nu
 
 nnoremap <C-p> :FZF<CR>
-nnoremap <A-k> :m .-2<CR>==
-nnoremap <A-j> :m .+1<CR>==
-vnoremap <A-k> :m '<-2<CR>gv=gv
-vnoremap <A-j> :m '>+1<CR>gv=gv
-nnoremap <A-Up> :m .-2<CR>==
-nnoremap <A-Down> :m .+1<CR>==
-vnoremap <A-Up> :m '<-2<CR>gv=gv
-vnoremap <A-Down> :m '>+1<CR>gv=gv
+nnoremap <C-k> :m .-2<CR>==
+nnoremap <C-j> :m .+1<CR>==
+vnoremap <C-k> :m '<-2<CR>gv=gv
+vnoremap <C-j> :m '>+1<CR>gv=gv
+nnoremap <C-Up> :m .-2<CR>==
+nnoremap <C-Down> :m .+1<CR>==
+vnoremap <C-Up> :m '<-2<CR>gv=gv
+vnoremap <C-Down> :m '>+1<CR>gv=gv
 nnoremap <leader>g :NERDTreeToggle<CR>
 nnoremap <leader>G :NERDTreeFind<CR>
 
