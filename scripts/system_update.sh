@@ -3,6 +3,7 @@
 GREEN="\e[32m"
 WHITE="\e[0m"
 PD=$HOME/Projects/dots/packages
+SD=$HOME/Projects/dots/scripts
 
 main () {
     echo -e "${GREEN}[i] Updating Pacman packages.${WHITE}"
@@ -24,6 +25,8 @@ main () {
     fi
     echo -e "\n${GREEN}[i] Removing packages cache.${WHITE}"
     yay -Scc
+
+    $SD/backup_config.sh
 }
 
 main

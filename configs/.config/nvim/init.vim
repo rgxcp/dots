@@ -13,6 +13,7 @@ vnoremap <C-Up> :m '<-2<CR>gv=gv
 vnoremap <C-Down> :m '>+1<CR>gv=gv
 nnoremap <leader>g :NERDTreeToggle<CR>
 nnoremap <leader>G :NERDTreeFind<CR>
+nnoremap bp obinding.pry<Esc> :w <Enter>
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'airblade/vim-gitgutter'

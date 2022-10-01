@@ -6,6 +6,10 @@ ViewPropsTimestamp=2021,6,21,21,27,27.999
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
+[KPropertiesDialog]
+eDP1 Height 1920x1080=583
+eDP1 Width 1920x1080=443
+
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled

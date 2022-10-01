@@ -2,6 +2,7 @@ betterlockscreen 4.0.4-1
 google-chrome 104.0.5112.101-1
 google-cloud-sdk 397.0.0-1
 i3lock-color 2.13.c.4-1
+libvterm01 0.1.4-2
 networkmanager-dmenu-git r153.da15351-1
 postman-bin 9.27.0-1
 rbenv-git 1.2.0.r14.gc6cc0a1-1
