@@ -15,5 +15,6 @@ Rofi:/home/northern/.config/rofi:/home/northern/.config/rofi
 Starship:/home/northern/.config/starship.toml:/home/northern/.config/starship.toml
 Tmux:/home/northern/.tmux.conf:/home/northern/.tmux.conf
 Vim:/home/northern/.config/nvim:/home/northern/.config/nvim/init.vim
+Xprofile:/home/northern/.xprofile:/home/northern/.xprofile
 Xresources:/home/northern/.Xresources:/home/northern/.Xresources
 Zsh:/home/northern/.zshrc:/home/northern/.zshrc

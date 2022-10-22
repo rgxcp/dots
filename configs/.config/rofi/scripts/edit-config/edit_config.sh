@@ -20,6 +20,7 @@ rofi="Rofi"
 starship="Starship"
 tmux="Tmux"
 vim="Vim"
+xprofile="Xprofile"
 xresources="Xresources"
 zsh="Zsh"
 
@@ -41,6 +42,7 @@ OPTIONS=(
 	$starship
 	$tmux
 	$vim
+	$xprofile
 	$xresources
 	$zsh
 )
@@ -64,6 +66,7 @@ case $CHOSEN in
 	$starship) code /home/northern/.config/starship.toml;;
 	$tmux) code /home/northern/.tmux.conf;;
 	$vim) code /home/northern/.config/nvim/init.vim;;
+	$xprofile) code /home/northern/.xprofile;;
 	$xresources) code /home/northern/.Xresources;;
 	$zsh) code /home/northern/.zshrc;;
 esac

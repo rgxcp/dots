@@ -84,6 +84,8 @@ workspace_auto_back_and_forth yes
 # |=======| | FIX
 # | Rules |
 # |=======|
+# Remove title bar
+for_window [class="^.*"] border pixel $bwt
 # Default to floating layout window
 for_window [class="xdman-Main"] floating enable border pixel $bwt resize set 960 540
 
